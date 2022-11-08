@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color:rgba(86, 255, 255, 0.667);
+  margin: 0;
+  font-family: Verdana;
+}
+
+
+
+
+
+.title {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: yellow;
+  margin-top: 150px;
+}
+
+.redBG {
+  background-color: rgba(249, 0, 0, 0.872);
+}
+
+#redBG {
+  background-color: rgba(249, 0, 0, 0.872);
+}
+
+.greenBG {
+  background-color: rgba(38, 241, 143, 0.85);
+}
+
+.yellowBG {
+  background-color: rgba(255, 217, 0, 0.874);
+}
+
+.blueBG {
+  background-color: rgba(69, 38, 241, 0.856);
+}
+
+input {
+  margin: 5px;
+}
+
+.plus{
+  width: 60px;
+    height:60px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background: #dc3545; 
+    padding: 0px;
+    text-align:center;
+    margin: 10%;
+    margin: 10px;
+}
+
+select, .roomBtn {
+  width: 170px;
+  margin: 5px;
+}
+
+
+.roomItem{
+  height: 80px;
+  width: 80px;;
+  margin: 5%;
+  display: inline-block;
+  padding: 5px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.deviceItem{
+  height: 40px;
+  width: 120px;
+  margin: 5%;
+  display: inline-block;
+  padding: 5px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.workoutButton{
+  border: solid black; border-radius: 10%;  
+  margin: 5px;
+  width: 260px;
+}
+
+.largeBtn {
+  height: 40px;
+  width: 120px;
+  margin: 15px;
+  color: black ;
+  font-weight: bold;
+  background-color: rgb(95, 95, 223);
+}
+
+table, tr {
+  font-family: arial, sans-serif;
+  border: 1px solid black;
+  border-collapse: collapse;
+  top: 50px;
+  margin: auto;
+}
+
+td {
+  padding: 15px;
+}
+.newtask {
+  background-color: rgb(101, 98, 98);
+  border: solid black;
+  border-radius: 20%;
+  margin: 10px;
+  padding: 10px;
+}
+.flexboxContainer{
+  display: flex;
+  background-color: rgb(206, 206, 206);
+  flex-direction: row;
+  justify-content: center;
+ }
+ .flexItem{
+ 
+  background-color: rgb(101, 203, 251);
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  font-size: 10px;
+
+ }

@@ -1,0 +1,79 @@
+[
+    {
+      "name": "State",
+      "value": [
+        {
+          "favorite": {
+            "cityKey": "215854",
+            "cityName": "Tel Aviv"
+          },
+          "currentConditions": {
+            "LocalObservationDateTime": "2022-11-08T11:13:00+02:00",
+            "EpochTime": 1667898780,
+            "WeatherText": "Clouds and sun",
+            "WeatherIcon": 4,
+            "HasPrecipitation": false,
+            "PrecipitationType": null,
+            "IsDayTime": true,
+            "Temperature": "{Imperial: {…}, Metric: {…}}",
+            "MobileLink": "http://www.accuweather.com/en/il/tel-aviv/215854/current-weather/215854?lang=en-us",
+            "Link": "http://www.accuweather.com/en/il/tel-aviv/215854/current-weather/215854?lang=en-us"
+          }
+        },
+        {
+          "favorite": {
+            "cityKey": "328328",
+            "cityName": "London"
+          },
+          "currentConditions": {
+            "LocalObservationDateTime": "2022-11-08T09:18:00+00:00",
+            "EpochTime": 1667899080,
+            "WeatherText": "Partly sunny",
+            "WeatherIcon": 3,
+            "HasPrecipitation": false,
+            "PrecipitationType": null,
+            "IsDayTime": true,
+            "Temperature": "{Imperial: {…}, Metric: {…}}",
+            "MobileLink": "http://www.accuweather.com/en/gb/london/ec4a-2/current-weather/328328?lang=en-us",
+            "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/current-weather/328328?lang=en-us"
+          }
+        },
+        {
+          "favorite": {
+            "cityKey": "226396",
+            "cityName": "Tokyo"
+          },
+          "currentConditions": {
+            "LocalObservationDateTime": "2022-11-08T18:13:00+09:00",
+            "EpochTime": 1667898780,
+            "WeatherText": "Mostly clear",
+            "WeatherIcon": 34,
+            "HasPrecipitation": false,
+            "PrecipitationType": null,
+            "IsDayTime": false,
+            "Temperature": "{Imperial: {…}, Metric: {…}}",
+            "MobileLink": "http://www.accuweather.com/en/jp/tokyo/226396/current-weather/226396?lang=en-us",
+            "Link": "http://www.accuweather.com/en/jp/tokyo/226396/current-weather/226396?lang=en-us"
+          }
+        }
+      ],
+      "subHooks": [],
+      "hookSource": {
+        "lineNumber": 34,
+        "functionName": "FavoritePage",
+        "fileName": "http://localhost:3000/main.e501a11add5903d4d095.hot-update.js",
+        "columnNumber": 107
+      }
+    },
+    {
+      "name": "Effect",
+      "value": "ƒ () {}",
+      "subHooks": [],
+      "hookSource": {
+        "lineNumber": 35,
+        "functionName": "FavoritePage",
+        "fileName": "http://localhost:3000/main.e501a11add5903d4d095.hot-update.js",
+        "columnNumber": 58
+      }
+    }
+  ]
