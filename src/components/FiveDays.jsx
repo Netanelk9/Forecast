@@ -10,12 +10,12 @@ export default function FiveDays(props) {
 
   const [fivedays, setFivedays] = useState([])
 
-  // useEffect(()=>{
-  //   fetch(`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${props.cityKey}?apikey=${API_KEY}&metric=true`)
-  //   .then((res)=>res.json())
-  //   .then((data)=>setFivedays(data.DailyForecasts))
-  //   .catch(e=>console.log(e))
-  // }, [])
+   useEffect(()=>{
+     fetch(`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${props.cityKey}?apikey=${API_KEY}&metric=true`)
+    .then((res)=>res.json())
+    .then((data)=>setFivedays(data.DailyForecasts))
+    .catch(e=>console.log(e))
+   }, [])
 
   return (
     <div>
